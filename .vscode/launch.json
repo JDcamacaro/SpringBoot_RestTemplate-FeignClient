@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiEjerc3Application<api_ejerc3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "api_ejerc3.api_ejerc3.ApiEjerc3Application",
+            "projectName": "api_ejerc3",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
