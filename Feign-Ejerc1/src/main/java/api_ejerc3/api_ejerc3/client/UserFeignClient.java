@@ -17,6 +17,11 @@ public interface UserFeignClient {
     @GetMapping() //value = "/users", consumes = MediaType.APPLICATION_JSON_VALUE
     public List<UserDTO> getUsers();
 
+    @GetMapping()
+    public static UserDTO getById(Long id) {
+        throw new UnsupportedOperationException("Unimplemented method 'getById'");
+    }
+    
     @PostMapping
     public void updateUser(@RequestBody UserDTO userDTO);
 

@@ -24,10 +24,15 @@ public class UserController {
     private final UserService userService;
 
     @GetMapping("/getUsers")
-    //@ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.OK)
     public List<UserDTO> getAll() {
         //return new ResponseEntity<>(UserService.getUsers(), HttpStatus.OK);
         return userService.getUsers();
+    }
+
+    @GetMapping("/getById/{id}")
+    public UserDTO getById(@PathVariable Long id){
+        return userService.byId(id);
     }
 
     @PostMapping
@@ -43,7 +48,7 @@ public class UserController {
     }
 
     @DeleteMapping("{id}")
-    public void deleteUser(@PathVariable("id") Integers id) {
+    public void deleteUser(@PathVariable("id") Long id) {
         userService.deleteUser(id);
     }
 
