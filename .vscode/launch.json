@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MicroservicioUsuarioApplication",
+            "request": "launch",
+            "mainClass": "com.jdcamacaro.microservicios_usuarios.MicroservicioUsuarioApplication",
+            "projectName": "microservicio_usuario"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-ApiEjerc3Application<api_ejerc3>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
