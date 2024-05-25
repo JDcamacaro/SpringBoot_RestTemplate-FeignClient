@@ -16,6 +16,16 @@
             "projectName": "api_ejerc3",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RestTemplateEjer1Application<rest_template_ejer1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.rest_template_ejer1.RestTemplateEjer1Application",
+            "projectName": "rest_template_ejer1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
