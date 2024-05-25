@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MicroservicioUsuarioApplication",
+            "request": "launch",
+            "mainClass": "com.jdcamacaro.microservicios_usuarios.MicroservicioUsuarioApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-MicroservicioUsuarioApplication<microservicio_usuario>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
