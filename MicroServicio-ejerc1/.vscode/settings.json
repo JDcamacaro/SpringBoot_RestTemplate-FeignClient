@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "jdcamacaro"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
