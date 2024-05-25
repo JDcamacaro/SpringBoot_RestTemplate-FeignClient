@@ -27,6 +27,16 @@
             "projectName": "microservicio-eureka",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioZuulApplication<microservicio-zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.jdcamacaro.microservicio_zuul.MicroservicioZuulApplication",
+            "projectName": "microservicio-zuul",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
