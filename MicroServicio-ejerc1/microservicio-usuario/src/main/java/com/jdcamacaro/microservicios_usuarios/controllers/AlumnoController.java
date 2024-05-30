@@ -18,7 +18,7 @@ import com.jdcamacaro.microservicios_usuarios.model.Alumno;
 import com.jdcamacaro.microservicios_usuarios.service.AlumnoService;
 
 @RestController
-@RequestMapping("/api/alumnos")
+@RequestMapping("/api/usuario")
 
 public class AlumnoController {
 
